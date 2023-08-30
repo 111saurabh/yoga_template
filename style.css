@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+header nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    background-color: #111;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+main h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.course {
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.course h2 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
